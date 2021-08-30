@@ -32,7 +32,7 @@ jobs:
   deploy_to_test:
     name: Deploy to test
     runs-on: ubuntu-latest
-    needs: lint
+    needs: linting
 
     steps:
     - uses: actions/download-artifact@v2
