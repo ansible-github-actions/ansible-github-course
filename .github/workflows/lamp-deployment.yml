@@ -17,10 +17,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Linting
       uses: ansible-community/ansible-lint-action@main
-      with:
-        targets: |
-          ansible/playbook.yml
-          ansible/inventory.yml
+      
 
         args: "-c ansible/.ansible-lint"
     - name: Publish Playbook Artifact
