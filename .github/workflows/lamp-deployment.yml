@@ -19,9 +19,7 @@ jobs:
       uses: ansible-community/ansible-lint-action@3641cc08b71a245719a8482804e01b70c15666da
       with:
         targets: |
-          ansible/playbook.yml
-          ansible/inventory.yml
-
+          
 
         args: "-c ansible/.ansible-lint"
     - name: Publish Playbook Artifact
