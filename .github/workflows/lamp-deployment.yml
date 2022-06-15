@@ -22,6 +22,7 @@ jobs:
           ansible/playbook.yml
           ansible/inventory.yml
 
+
         args: "-c ansible/.ansible-lint"
     - name: Publish Playbook Artifact
       uses: actions/upload-artifact@v2
