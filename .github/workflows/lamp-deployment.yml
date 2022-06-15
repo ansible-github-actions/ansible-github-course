@@ -18,10 +18,3 @@ jobs:
     - name: Linting
       uses: ansible-community/ansible-lint-action@main
       
-
-        args: "-c ansible/.ansible-lint"
-    - name: Publish Playbook Artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: playbooks
-        path: ansible
