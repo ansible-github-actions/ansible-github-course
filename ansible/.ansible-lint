@@ -1,6 +1,0 @@
-warn_list:
-  - '602' # Don't compare to empty string
-
-skip_list:
-  - 'fqcn-builtins'
-  - 'yaml'  # Violations reported by yamllint.
