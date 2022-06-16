@@ -16,5 +16,8 @@ jobs:
     - name: Checkout sources
       uses: actions/checkout@v2
     - name: Linting
-      uses: ansible-community/ansible-lint-action@main
+      uses: ansible-community/ansible-lint-action@3641cc08b71a245719a8482804e01b70c15666da
+
+
+
       
