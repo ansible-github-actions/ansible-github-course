@@ -1,4 +1,6 @@
 warn_list:
   - '602' # Don't compare to empty string
-  - fqcn-builtins  # Use FQCN for builtin actions.
-  - yaml  # Violations reported by yamllint.
+
+skip_list:
+  - 'fqcn-builtins'
+  - 'yaml'  # Violations reported by yamllint.
