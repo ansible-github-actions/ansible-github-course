@@ -3,7 +3,8 @@ all:
   children:
     web-servers:
       hosts:
-        52.178.88.197
+        localhost
       vars:
-        ansible_user: flanders
+        ansible_user: user
         ansible_ssh_pass: '%TEST_SSH_PASSWORD%'
+
